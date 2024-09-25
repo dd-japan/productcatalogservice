@@ -106,7 +106,7 @@ jobs:
           cat productcatalogservice-manifest/manifest/productcatalogservice.yaml
 
     - name: Commit and push changes
-      working-directory: shippingservice-manifest
+      working-directory: productcatalogservice-manifest
       run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
